@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosmo Calculator | by Bunny Azmeera</title>
+  <link rel="stylesheet" href="cal.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="calculator" class="dark">
+    <div class="display-container">
+      <input id="display" readonly />
+      <span id="label">Cosmo</span>
+    </div>
+    <span id="man">Bunny's Cosmo Calculator</span>
+
+    <div class="toggle-theme">
+      <button id="themeToggle">☀️ / 🌙</button>
+    </div>
+
+    <div id="keys">
+      <button data-action="clear" class="symbols">C</button>
+      <button data-action="backspace">⌫</button>
+      <button data-value="%">%</button>
+      <button data-value="/">÷</button>
+
+      <button data-value="7">7</button>
+      <button data-value="8">8</button>
+      <button data-value="9">9</button>
+      <button data-value="*">×</button>
+
+      <button data-value="4">4</button>
+      <button data-value="5">5</button>
+      <button data-value="6">6</button>
+      <button data-value="-">−</button>
+
+      <button data-value="1">1</button>
+      <button data-value="2">2</button>
+      <button data-value="3">3</button>
+      <button data-value="+">+</button>
+
+      <button data-value="0">0</button>
+      <button data-value=".">.</button>
+      <button data-action="square">x²</button>
+      <button data-action="sqrt">√</button>
+
+      <button data-action="calculate" class="equals">=</button>
+    </div>
+  </div>
+
+  <script src="cal.js"></script>
+</body>
+</html>
